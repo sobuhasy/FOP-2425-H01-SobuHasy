@@ -23,6 +23,8 @@ public class OrangeGhost extends Robot implements Ghost, TickBased {
         super(x, y, Families.GHOST_ORANGE);
     }
 
+    private boolean leftTurnNext = false;
+
     /**
      * Moves the robot in a straight line if possible.
      * If the robot cannot move forward, it turns left or right until there is no
