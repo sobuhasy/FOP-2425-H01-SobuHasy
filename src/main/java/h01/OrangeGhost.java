@@ -32,8 +32,8 @@ public class OrangeGhost extends Robot implements Ghost, TickBased {
      * The robot alternates between turning left and right.
      */
     @Override
-    @StudentImplementationRequired("H2.2")
+    @StudentImplementationRequired("H2.3")
     public void doMove() {
-        org.tudalgo.algoutils.student.Student.crash("H2.2 - Remove if implemented");
+        org.tudalgo.algoutils.student.Student.crash("H2.3 - Remove if implemented");
     }
 }

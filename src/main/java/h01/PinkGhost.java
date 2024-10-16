@@ -28,8 +28,8 @@ public class PinkGhost extends Robot implements Ghost, TickBased {
      * The ghost then moves forward or turns to the left until it can move forward.
      */
     @Override
-    @StudentImplementationRequired("H2.1")
+    @StudentImplementationRequired("H2.2")
     public void doMove() {
-        org.tudalgo.algoutils.student.Student.crash("H2.1 - Remove if implemented");
+        org.tudalgo.algoutils.student.Student.crash("H2.2 - Remove if implemented");
     }
 }

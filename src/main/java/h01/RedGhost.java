@@ -30,8 +30,8 @@ public class RedGhost extends Robot implements Ghost, TickBased {
      * Moves the robot in the direction of the chased robot.
      */
     @Override
-    @StudentImplementationRequired("H2.3")
+    @StudentImplementationRequired("H2.4")
     public void doMove() {
-        org.tudalgo.algoutils.student.Student.crash("H2.3 - Remove if implemented");
+        org.tudalgo.algoutils.student.Student.crash("H2.4 - Remove if implemented");
     }
 }
