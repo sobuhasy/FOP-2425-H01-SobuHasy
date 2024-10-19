@@ -6,6 +6,7 @@ import fopbot.Robot;
 import h01.template.Families;
 import h01.template.Ghost;
 import h01.template.TickBased;
+import h01.template.Util;
 
 /**
  * The {@link PinkGhost} is a {@link Robot} that looks like a pink ghost.

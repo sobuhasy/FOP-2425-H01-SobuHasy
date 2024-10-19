@@ -2,6 +2,7 @@ package h01;
 
 import org.tudalgo.algoutils.student.annotation.StudentImplementationRequired;
 
+import fopbot.Direction;
 import fopbot.Robot;
 import h01.template.Controllable;
 import h01.template.Families;
