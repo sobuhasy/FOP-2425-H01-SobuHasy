@@ -1,5 +1,6 @@
 package h01;
 
+import fopbot.Direction;
 import org.tudalgo.algoutils.student.annotation.StudentImplementationRequired;
 
 import fopbot.Robot;
@@ -31,6 +32,18 @@ public class PinkGhost extends Robot implements Ghost, TickBased {
     @Override
     @StudentImplementationRequired("H2.2")
     public void doMove() {
-        org.tudalgo.algoutils.student.Student.crash("H2.2 - Remove if implemented");
+        Direction[] directions = Direction.values();
+        int randomTurns = (int) (Math.random() * directions.length);
+
+        for(int i = 0; i < randomTurns; i++){
+            turnLeft();
+        }
+
+        while(!isFrontClear()){
+            turnLeft();
+        }
+        move();
+
+        // org.tudalgo.algoutils.student.Student.crash("H2.2 - Remove if implemented");
     }
 }

@@ -34,6 +34,22 @@ public class OrangeGhost extends Robot implements Ghost, TickBased {
     @Override
     @StudentImplementationRequired("H2.3")
     public void doMove() {
-        org.tudalgo.algoutils.student.Student.crash("H2.3 - Remove if implemented");
+        if (isFrontClear()) {
+            move();
+        } else {
+            while (!isFrontClear()){
+                 if (leftTurnNext){
+                    turnLeft();
+                } else {
+                     for (int i = 0; i < 3; i++){
+                         turnLeft();
+                     }
+
+                }
+            }
+            leftTurnNext = !leftTurnNext;
+        }
+        // org.tudalgo.algoutils.student.Student.crash("H2.3 - Remove if implemented");
+
     }
 }
